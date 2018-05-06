@@ -7,7 +7,7 @@ public class TestCase3 {
 	}
 	public static String test2() {
 		String s=test1();
-		if("zhang".equals(s)) {
+		if("张星亮".equals(s)) {
 			System.out.println(111);
 		}
 		return "张星亮";

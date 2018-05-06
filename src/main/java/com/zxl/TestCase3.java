@@ -6,6 +6,7 @@ public class TestCase3 {
 
 	}
 	public static String test2() {
+		System.out.println("zhangxingliag");
 		String s=test1();
 		if("张星亮".equals(s)) {
 			System.out.println(111);

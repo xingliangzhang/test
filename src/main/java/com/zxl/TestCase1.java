@@ -11,12 +11,7 @@ public class TestCase1 {
 		int[] b = new int[] { 1, 2, 3, 4, 5 };
 		end: // 跳出多层循环
 		for (int i = 0; i < a.length; i++) {
-			if (1 == 1) {
-				System.out.println("我是中国人");
-			}
-			System.out.println("i=" + i);
 			for (int j = 0; j < b.length; j++) {
-				// System.err.println("j="+j);
 				if (b[j] < 4) {
 					System.out.println("b[j]=" + b[j]);
 				} else {
@@ -26,7 +21,6 @@ public class TestCase1 {
 			}
 		}
 	}
-
 	public static void main(String[] args) {
 		System.out.println(s);
 		TestCase1.test1();

@@ -7,6 +7,11 @@ public class TestCase1 {
 		
 		end://跳出多层循环
 		for (int i = 0; i < a.length; i++) {
+			//改变start
+			if(a[i]==1) {
+				System.out.println("我是中国人");
+			}
+			//改变end
 			System.out.println("i="+i);
 			for (int j = 0; j < b.length; j++) {
 				//System.err.println("j="+j);

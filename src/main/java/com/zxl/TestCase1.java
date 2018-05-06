@@ -12,10 +12,8 @@ public class TestCase1 {
 		end: // 跳出多层循环
 		for (int i = 0; i < a.length; i++) {
 			for (int j = 0; j < b.length; j++) {
-				if (b[j] < 4) {
-					System.out.println("b[j]=" + b[j]);
-				} else {
-					System.out.println("结束循环");
+				if (b[j] < 4) {System.out.println("b[j]=" + b[j]);
+				} else {System.out.println("结束循环");
 					break end;
 				}
 			}

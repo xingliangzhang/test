@@ -3,6 +3,11 @@ package com.zxl;
 public class TestCase1 {
 	public static final String s = "zhangxingliang";
 
+	public static void test2() {
+		System.out.println("改变2");
+
+	}
+
 	public static void test1() {
 		int[] a = new int[] { 1, 2, 3, 4, 5, 6, 7 };
 		int[] b = new int[] { 1, 2, 3, 4, 5 };
@@ -13,6 +18,7 @@ public class TestCase1 {
 			if (1 == 1) {
 				System.out.println("我是中国人");
 			}
+			// 改变2
 			for (int j = 0; j < b.length; j++) {
 				// System.err.println("j="+j);
 				if (b[j] < 4) {

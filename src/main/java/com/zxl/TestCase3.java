@@ -8,8 +8,11 @@ public class TestCase3 {
 	public static String test2() {
 		System.out.println("zhangxingliag");
 		String s=test1();
-		if("张星亮".equals(s)) {
+		if("张星亮111".equals(s)) {
 			System.out.println(111);
+		}
+		if("zhangxingliang".equals(s)) {
+			System.out.println(222);
 		}
 		return "张星亮";
 		
